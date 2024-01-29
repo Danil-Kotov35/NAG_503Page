@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install --save-dev node-sass && node-sass --output-style compressed -o src style && html-minifier --collapse-whitespace -o index.html index.html"
+    "build": "node-sass --output-style compressed -o src style && html-minifier --collapse-whitespace -o index.html index.html"
   },
   "repository": {
     "type": "git",
